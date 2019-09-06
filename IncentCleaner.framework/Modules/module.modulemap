@@ -1,0 +1,11 @@
+framework module IncentCleaner {
+  umbrella header "IncentCleaner.h"
+
+  export *
+  module * { export * }
+}
+
+module IncentCleaner.Swift {
+    header "IncentCleaner-Swift.h"
+    requires objc
+}
