@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IncentCleaner'
-  s.version          = '1.0.0'
+  s.version          = '1.0.0-xcode11'
   s.summary          = 'Framework for incent traffic cutting off.'
 
 # This description is used to generate tags and improve search results.

@@ -7,23 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		434B0AD823391DBF00A73CBD /* IncentCleaner.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 434B0AD723391DBF00A73CBD /* IncentCleaner.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		434B39D823212BDC0004CA99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434B39D723212BDC0004CA99 /* AppDelegate.swift */; };
 		434B39DA23212BDC0004CA99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434B39D923212BDC0004CA99 /* ViewController.swift */; };
 		434B39DD23212BDC0004CA99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434B39DB23212BDC0004CA99 /* Main.storyboard */; };
 		434B39DF23212BDD0004CA99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 434B39DE23212BDD0004CA99 /* Assets.xcassets */; };
 		434B39E223212BDD0004CA99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434B39E023212BDD0004CA99 /* LaunchScreen.storyboard */; };
-		434B39FB2322332C0004CA99 /* IncentCleaner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 434B39FA2322332C0004CA99 /* IncentCleaner.framework */; };
-		434B39FC2322332C0004CA99 /* IncentCleaner.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 434B39FA2322332C0004CA99 /* IncentCleaner.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		434B39FD2322332C0004CA99 /* Embed Frameworks */ = {
+		434B0AD623391D9B00A73CBD /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				434B39FC2322332C0004CA99 /* IncentCleaner.framework in Embed Frameworks */,
+				434B0AD823391DBF00A73CBD /* IncentCleaner.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -31,6 +30,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		434B0AD723391DBF00A73CBD /* IncentCleaner.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IncentCleaner.framework; sourceTree = "<group>"; };
 		434B39D423212BDC0004CA99 /* IncentCleanerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IncentCleanerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		434B39D723212BDC0004CA99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		434B39D923212BDC0004CA99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,7 +38,6 @@
 		434B39DE23212BDD0004CA99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		434B39E123212BDD0004CA99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		434B39E323212BDD0004CA99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		434B39FA2322332C0004CA99 /* IncentCleaner.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IncentCleaner.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,19 +45,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				434B39FB2322332C0004CA99 /* IncentCleaner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		434B0AD223391D9B00A73CBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		434B39CB23212BDB0004CA99 = {
 			isa = PBXGroup;
 			children = (
-				434B39FA2322332C0004CA99 /* IncentCleaner.framework */,
+				434B0AD723391DBF00A73CBD /* IncentCleaner.framework */,
 				434B39D623212BDC0004CA99 /* IncentCleanerExample */,
 				434B39D523212BDC0004CA99 /* Products */,
+				434B0AD223391D9B00A73CBD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,7 +99,7 @@
 				434B39D023212BDC0004CA99 /* Sources */,
 				434B39D123212BDC0004CA99 /* Frameworks */,
 				434B39D223212BDC0004CA99 /* Resources */,
-				434B39FD2322332C0004CA99 /* Embed Frameworks */,
+				434B0AD623391D9B00A73CBD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
