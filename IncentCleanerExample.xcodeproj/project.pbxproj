@@ -12,8 +12,7 @@
 		434B39DD23212BDC0004CA99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434B39DB23212BDC0004CA99 /* Main.storyboard */; };
 		434B39DF23212BDD0004CA99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 434B39DE23212BDD0004CA99 /* Assets.xcassets */; };
 		434B39E223212BDD0004CA99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434B39E023212BDD0004CA99 /* LaunchScreen.storyboard */; };
-		434B39FB2322332C0004CA99 /* IncentCleaner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 434B39FA2322332C0004CA99 /* IncentCleaner.framework */; };
-		434B39FC2322332C0004CA99 /* IncentCleaner.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 434B39FA2322332C0004CA99 /* IncentCleaner.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		435D38142369D43C00B3B88D /* IncentCleaner.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 435D38132369D43C00B3B88D /* IncentCleaner.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,7 +22,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				434B39FC2322332C0004CA99 /* IncentCleaner.framework in Embed Frameworks */,
+				435D38142369D43C00B3B88D /* IncentCleaner.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -38,7 +37,7 @@
 		434B39DE23212BDD0004CA99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		434B39E123212BDD0004CA99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		434B39E323212BDD0004CA99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		434B39FA2322332C0004CA99 /* IncentCleaner.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IncentCleaner.framework; sourceTree = "<group>"; };
+		435D38132369D43C00B3B88D /* IncentCleaner.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IncentCleaner.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +45,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				434B39FB2322332C0004CA99 /* IncentCleaner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +54,7 @@
 		434B39CB23212BDB0004CA99 = {
 			isa = PBXGroup;
 			children = (
-				434B39FA2322332C0004CA99 /* IncentCleaner.framework */,
+				435D38132369D43C00B3B88D /* IncentCleaner.framework */,
 				434B39D623212BDC0004CA99 /* IncentCleanerExample */,
 				434B39D523212BDC0004CA99 /* Products */,
 			);
