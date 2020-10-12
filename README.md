@@ -5,11 +5,17 @@ Framework for incent traffic cutting off.
 ## Installation
 
 Need to install an appropriate version of the framework according to your Xcode version:
-1) Get the major version of Xcode e.g. `10`
+1) Get the major version of Xcode e.g. `12`
 2) CocoaPods:
 
 ```
-pod 'IncentCleaner', '<LAST_RELEASE_VERSION>-xcode<MAJOR_VERSION_OF_XCODE>' # e.g. `1.0.0-xcode10`
+pod 'IncentCleaner' # to install last `1.12` version compatible with Xcode12
+```
+
+or
+
+```
+pod 'IncentCleaner', '<LAST_RELEASE_VERSION>-xcode<MAJOR_VERSION_OF_XCODE>' # e.g. `1.0.0-xcode12`
 ```
 
 3) In the `Info.plist` need to add `App Transport Security Settings`:

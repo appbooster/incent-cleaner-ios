@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,18 +12,18 @@
 		434B39DD23212BDC0004CA99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434B39DB23212BDC0004CA99 /* Main.storyboard */; };
 		434B39DF23212BDD0004CA99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 434B39DE23212BDD0004CA99 /* Assets.xcassets */; };
 		434B39E223212BDD0004CA99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434B39E023212BDD0004CA99 /* LaunchScreen.storyboard */; };
-		434B39FB2322332C0004CA99 /* IncentCleaner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 434B39FA2322332C0004CA99 /* IncentCleaner.framework */; };
-		434B39FC2322332C0004CA99 /* IncentCleaner.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 434B39FA2322332C0004CA99 /* IncentCleaner.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8394522E25346E1B007E8780 /* IncentCleaner.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8394522D25346E1B007E8780 /* IncentCleaner.xcframework */; };
+		8394522F25346E1B007E8780 /* IncentCleaner.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8394522D25346E1B007E8780 /* IncentCleaner.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		434B39FD2322332C0004CA99 /* Embed Frameworks */ = {
+		8394522125344841007E8780 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				434B39FC2322332C0004CA99 /* IncentCleaner.framework in Embed Frameworks */,
+				8394522F25346E1B007E8780 /* IncentCleaner.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -38,7 +38,7 @@
 		434B39DE23212BDD0004CA99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		434B39E123212BDD0004CA99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		434B39E323212BDD0004CA99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		434B39FA2322332C0004CA99 /* IncentCleaner.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IncentCleaner.framework; sourceTree = "<group>"; };
+		8394522D25346E1B007E8780 /* IncentCleaner.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = IncentCleaner.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				434B39FB2322332C0004CA99 /* IncentCleaner.framework in Frameworks */,
+				8394522E25346E1B007E8780 /* IncentCleaner.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +56,9 @@
 		434B39CB23212BDB0004CA99 = {
 			isa = PBXGroup;
 			children = (
-				434B39FA2322332C0004CA99 /* IncentCleaner.framework */,
 				434B39D623212BDC0004CA99 /* IncentCleanerExample */,
 				434B39D523212BDC0004CA99 /* Products */,
+				8394521825343A29007E8780 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +83,14 @@
 			path = IncentCleanerExample;
 			sourceTree = "<group>";
 		};
+		8394521825343A29007E8780 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8394522D25346E1B007E8780 /* IncentCleaner.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -93,7 +101,7 @@
 				434B39D023212BDC0004CA99 /* Sources */,
 				434B39D123212BDC0004CA99 /* Frameworks */,
 				434B39D223212BDC0004CA99 /* Resources */,
-				434B39FD2322332C0004CA99 /* Embed Frameworks */,
+				8394522125344841007E8780 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -303,7 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2FZN78A8MM;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -326,7 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2FZN78A8MM;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
